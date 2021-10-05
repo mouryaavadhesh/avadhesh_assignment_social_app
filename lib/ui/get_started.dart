@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:avadhesh_assignment/ui/ease_in_widget.dart';
-import 'package:avadhesh_assignment/ui/insta_home.dart';
+import 'package:avadhesh_assignment/widgets/ease_in_widget.dart';
+import 'package:avadhesh_assignment/ui/home.dart';
 import 'package:avadhesh_assignment/utils/green_clipper.dart';
 import 'package:avadhesh_assignment/utils/indicator.dart';
 import 'package:avadhesh_assignment/utils/theme_color.dart';

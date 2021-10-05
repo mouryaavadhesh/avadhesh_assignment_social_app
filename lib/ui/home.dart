@@ -1,7 +1,7 @@
 import 'package:avadhesh_assignment/data/data.dart';
 import 'package:avadhesh_assignment/models/user_model.dart';
 import 'package:avadhesh_assignment/ui/chatList.dart';
-import 'package:avadhesh_assignment/ui/ease_in_widget.dart';
+import 'package:avadhesh_assignment/widgets/ease_in_widget.dart';
 import 'package:avadhesh_assignment/ui/profile.dart';
 import 'package:avadhesh_assignment/utils/theme_color.dart';
 import 'package:flutter/material.dart';
