@@ -32,9 +32,6 @@ class _EaseInWidgetState extends State<EaseInWidget>
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        if (widget.onTap == null) {
-          return;
-        }
         controller.forward().then((val) {
           controller.reverse().then((val) {
             widget.onTap();
