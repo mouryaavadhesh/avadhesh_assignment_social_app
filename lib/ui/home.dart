@@ -88,7 +88,7 @@ class _InstaHomeState extends State<InstaHome> {
                                  index == 0
                                         ? new CircleAvatar(
                                       radius: 32,
-                                      backgroundColor: Color(0xfff1f3f5),
+                                      backgroundColor: ThemeColor.imageBack,
                                       child: Icon(
                                         Icons.add,
                                         color: ThemeColor.imageAdd,
@@ -97,7 +97,7 @@ class _InstaHomeState extends State<InstaHome> {
                                       backgroundImage: AssetImage(
                                           userList[index].profilePic),
                                       radius: 32,
-                                      backgroundColor: Color(0xfff1f3f5),
+                                      backgroundColor:ThemeColor.imageBack,
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.only(top: 10.0),
